@@ -1,12 +1,15 @@
 import Image from "next/image";
 import Head from "next/head";
 import metadata from "../data/metadata";
+
 import Nav from "./Nav";
 
 const Container = (props) => {
   const meta = {
-    title: metadata.title,
-    description: metadata.description,
+    title: metadata.meta.title,
+    description: metadata.meta.description,
+
+    image: `${metadata.meta.url}/home/main.jpg`,
     author: metadata.author,
     ...props.customMeta,
   };
