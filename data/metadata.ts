@@ -1,9 +1,10 @@
 const metadata = {
-  repo: 'https://github.com/',
+  repo: 'https://github.com/MiryangJung/miryang.dev',
   meta: {
-    url: 'https://',
-    title: 'PinkPochacco | Developer',
+    url: 'https://miryang.dev',
+    title: 'Miryang | Developer',
     description: 'Lazy frontend developer who likes to travel',
+    twitter: '@MiryangJung',
   },
   author: 'MiryangJung',
   home: {
@@ -11,13 +12,24 @@ const metadata = {
     description: 'Lazy frontend developer who likes to travel',
   },
   social: {
-    github: 'https://github.com/pinkpochacco',
-    instagram: 'https://www.instagram.com/frohsch/',
+    github: 'https://github.com/MiryangJung',
+    twitter: 'https://twitter.com/miryangjung',
+    linkedin: 'https://www.linkedin.com/in/miryangjung/',
+    stackoverflow: 'https://stackoverflow.com/users/11981439/miryangjung',
+    facebook: '',
+    instagram: '',
+    rss: 'https://miryang.dev/feed.xml',
+  },
+  analytics: {
+    google: 'G-MXZZX39DZ7',
   },
   giscus: {
-    id: 'PinkPochacco',
-    repo: 'pinkpochacco.dev',
+    id: 'MiryangJung',
+    repo: 'miryang.dev',
     category: 'General',
+  },
+  ads: {
+    google: 'ca-pub-6660943261631856',
   },
 }
 
