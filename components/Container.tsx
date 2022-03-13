@@ -2,6 +2,7 @@ import Image from "next/image";
 import Head from "next/head";
 import metadata from "../data/metadata";
 import Link from "next/link";
+import Footer from "./Footer";
 
 import Nav from "./Nav";
 
@@ -38,15 +39,13 @@ const Container = (props) => {
             className={`rounded-full`}
           />
           
-          {/* <span className={`mx-2 font-extralight text-lg`}>
-            {metadata.title}
-          </span> */}
           </a>
           </Link>
         </div>
         
       </header>
       <main className={`w-full max-w-3xl`}>{props.children}</main>
+      <Footer />
     </div>
   );
 };
