@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Head from "next/head";
 import metadata from "../data/metadata";
+import Link from "next/link";
 
 import Nav from "./Nav";
 
@@ -26,7 +27,8 @@ const Container = (props) => {
       >
         <Nav />
         <div className={`flex flex-row items-center`}>
-          <a href="/">
+          <Link href={"/"}>
+          <a>
           <Image
             src={`/logo.jpg`}
             alt="로고"
@@ -40,6 +42,7 @@ const Container = (props) => {
             {metadata.title}
           </span> */}
           </a>
+          </Link>
         </div>
         
       </header>
